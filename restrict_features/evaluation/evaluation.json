@@ -1,0 +1,55 @@
+{
+    "accuracy": 0.9430981614935762,
+    "balanced_accuracy": 0.8539831560413418,
+    "prfs": {
+        "precision": {
+            "normal": 0.9204266584220595,
+            "attack": 0.9890368050117463
+        },
+        "recall": {
+            "normal": 0.9941560745517918,
+            "attack": 0.85982708148955
+        },
+        "f1_score": {
+            "normal": 0.9558717290094719,
+            "attack": 0.9199169671146072
+        },
+        "support": {
+            "normal": 47913.0,
+            "attack": 29378.0
+        }
+    },
+    "test_target_proportions": {
+        "false": 0.6199039991719605,
+        "true": 0.38009600082803946
+    },
+    "model_params": {
+        "objective": "binary:logistic",
+        "base_score": 0.5,
+        "booster": "gbtree",
+        "colsample_bylevel": 1,
+        "colsample_bynode": 1,
+        "colsample_bytree": 1,
+        "gamma": 2.5,
+        "gpu_id": -1,
+        "importance_type": "gain",
+        "interaction_constraints": "",
+        "learning_rate": 0.5,
+        "max_delta_step": 0,
+        "max_depth": 8,
+        "min_child_weight": 1,
+        "missing": NaN,
+        "monotone_constraints": "()",
+        "n_estimators": 50,
+        "n_jobs": 0,
+        "num_parallel_tree": 1,
+        "random_state": 1,
+        "reg_alpha": 0,
+        "reg_lambda": 1,
+        "scale_pos_weight": 1,
+        "subsample": 0.5,
+        "tree_method": "exact",
+        "validate_parameters": 1,
+        "verbosity": null
+    }
+}
