@@ -10,7 +10,7 @@ def combine_evaluations():
     evaluations = {}
     all_prfs = {}
     for model_folder in model_folders:
-        with open(f"./{model_folder}/evaluation/evaluation.json", "r") as f:
+        with open(f"../{model_folder}/evaluation/evaluation.json", "r") as f:
             evaluation = json.load(f)
             evaluation.pop('test_target_proportions')
             prfs = evaluation.pop('prfs')
