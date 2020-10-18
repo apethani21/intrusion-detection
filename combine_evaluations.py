@@ -3,7 +3,8 @@ import json
 import pandas as pd
 
 model_folders = ["baseline", "categorical_and_pca", "categorical_only",
-                 "combat_overfit", "reduce_float_dims_pca", "restrict_features"]
+                 "combat_overfit", "reduce_float_dims_pca", "restrict_features",
+                 "adding_features_v1", "adding_features_v2", "adding_features_v3"]
 
 def combine_evaluations():
     evaluations = {}
